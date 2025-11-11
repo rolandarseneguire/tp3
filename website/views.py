@@ -36,6 +36,8 @@ def blog (request):
 
 def base (request):
     return render(request, 'website/base.html')
+def team (request):
+    return render(request, 'website/team.html')
 
 def singleblogpostleftsidebar(request):
     return render(request, 'website/singleblogpostleftsidebar.html')

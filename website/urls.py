@@ -14,6 +14,7 @@ urlpatterns = [
     path('gallery.html', views.gallery, name='gallery'),
     path('blog.html', views.blog, name='blog'),
     path('base.html', views.base, name='base'),
+    path('team.html', views.team, name='team'),
     path('singleblogpostleftsidebar.html', views.singleblogpostleftsidebar, name='singleblogpostleftsidebar'),
     path('singleblogpostrightsidebar.html', views.singleblogpostrightsidebar, name='singleblogpostrightsidebar'),
     path('singleblogpostwithoutsidebar.html', views.singleblogpostwithoutsidebar, name='singleblogpostwithoutsidebar'),
