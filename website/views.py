@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 def index(request):
     context = {
-        'title': 'TP WEB L3 Info',
+        'title': 'index',
         'about': get_about()
     }
     return render(request, 'website/index.html', context)
@@ -11,7 +11,7 @@ def index(request):
 def about(request):
 
     context = {
-        'title': 'TP WEB L3 Info',
+        'title': 'index',
         'about': get_about()
     }
     return render(request, 'website/about.html', context)
