@@ -1,3 +1,4 @@
+  {% load static %}
         <section class="services-details" id="services">
             <div class="container">
                 <div class="row">
@@ -16,7 +17,7 @@
                         </div>
                         <!-- Services List Ends -->
                         <div class="support pt-5">
-                            <img src="assets/imgs/about/support.jpg" class="img-fluid" alt="" >
+                            <img src="{% static 'website/assets/imgs/about/support.jpg'%}" class="img-fluid" alt="" >
                             <div class="info">
                                 <div class="icon"><i class="las la-phone"></i></div>
                                 <div class="number">
@@ -33,7 +34,7 @@
                             <h3 class="pb-3">Business consulting services</h3>
                             <p>Standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
                             <div class="pic pb-3 pt-3">
-                                <img src="assets/imgs/blog/big/1.jpg" class="img-fluid" alt="" >
+                                <img src="{% static 'website/assets/imgs/blog/big/1.jpg'%}" class="img-fluid" alt="" >
                             </div>
                             <p>
                                 Cepteur sint occaecat cupidatat proident, taken possession
@@ -114,5 +115,3 @@
                 </div>
             </div>
         </section>
-        <!-- /.. SERVICES ENDS
-            ========================================================================= -->

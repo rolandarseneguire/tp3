@@ -1,4 +1,4 @@
-<!-- SINGLE BLOG POST STARTS
+{% load static %}<!-- SINGLE BLOG POST STARTS
             ========================================================================= -->
         <section class="blog blog-inner-page">
             <div class="container">
@@ -8,7 +8,7 @@
                         <div class="blog-post-detail">
                             <!-- Post Details Starts -->
                             <div class="pic pb-4 animated" data-animation="fadeInUp" data-animation-delay="300">
-                                <img src="assets/imgs/blog/big/1.jpg" class="img-fluid" alt="" >
+                                <img src="{% static 'website/assets/imgs/blog/big/1.jpg'%}" class="img-fluid" alt="" >
                             </div>
                             <h2 class="pt-3 pb-3 animated" data-animation="fadeInUp" data-animation-delay="400">Cepteur sint occaecat cupidatat proident taken possession</h2>
                             <p class=" animated" data-animation="fadeInUp" data-animation-delay="500">
@@ -24,7 +24,7 @@
                             <div class="row pt-4 pb-4">
                                 <div class="col-12 col-lg-6 animated" data-animation="fadeInUp" data-animation-delay="100">
                                     <div class="pic">
-                                        <img src="assets/imgs/blog/big/2.jpg" class="img-fluid" alt="" >
+                                        <img src="{% static 'website/assets/imgs/blog/big/2.jpg'%}" class="img-fluid" alt="" >
                                     </div>
                                 </div>
                                 <div class="col-12 col-lg-6 ps-3 ps-lg-5 pt-4 pt-lg-0 animated" data-animation="fadeInUp" data-animation-delay="200">
@@ -76,7 +76,7 @@
                         <div class="light-grey-bg p-4 animated" data-animation="fadeInUp" data-animation-delay="100">
                             <div class="row align-items-center">
                                 <div class="col-3">
-                                    <img src="assets/imgs/blog/author/author.jpg" class="img-fluid" alt="...">
+                                    <img src="{% static 'website/assets/imgs/blog/author/author.jpg'%}" class="img-fluid" alt="...">
                                 </div>
                                 <div class="col-9">
                                     <h3>About Author</h3>
@@ -99,7 +99,7 @@
                                     <!-- 1st Comments Starts -->
                                     <li class="list-group-item">
                                         <div class="row">
-                                            <div class="col-3 col-md-2 col-lg-1 p-0"><img src="assets/imgs/blog/comments/1.jpg" class="img-fluid" alt="..."></div>
+                                            <div class="col-3 col-md-2 col-lg-1 p-0"><img src="{% static  'website/assets/imgs/blog/comments/1.jpg'%}" class="img-fluid" alt="..."></div>
                                             <div class="col-9 col-md-10 col-lg-11 ps-4">
                                                 <div class="d-flex w-100 justify-content-between">
                                                     <h4 class="mb-1">John Doe</h4>
@@ -114,7 +114,7 @@
                                             <!-- 1st Reply Starts -->
                                             <li class="list-group-item">
                                                 <div class="row">
-                                                    <div class="col-3 col-md-2 col-lg-1 p-0"><img src="assets/imgs/blog/comments/2.jpg" class="img-fluid" alt="..."></div>
+                                                    <div class="col-3 col-md-2 col-lg-1 p-0"><img src="{% static  'website/assets/imgs/blog/comments/2.jpg'%}" class="img-fluid" alt="..."></div>
                                                     <div class="col-9 col-md-10 col-lg-11 ps-4">
                                                         <div class="d-flex w-100 justify-content-between">
                                                             <h4 class="mb-1">John Doe</h4>
@@ -133,7 +133,7 @@
                                     <!-- 2nd Comments Starts -->
                                     <li class="list-group-item">
                                         <div class="row">
-                                            <div class="col-3 col-md-2 col-lg-1 p-0"><img src="assets/imgs/blog/comments/3.jpg" class="img-fluid" alt="..."></div>
+                                            <div class="col-3 col-md-2 col-lg-1 p-0"><img src="{% static  'website/assets/imgs/blog/comments/3.jpg'%}" class="img-fluid" alt="..."></div>
                                             <div class="col-9 col-md-10 col-lg-11 ps-4">
                                                 <div class="d-flex w-100 justify-content-between">
                                                     <h4 class="mb-1">John Doe</h4>
@@ -148,7 +148,7 @@
                                     <!-- 2nd Comments Starts -->
                                     <li class="list-group-item">
                                         <div class="row">
-                                            <div class="col-3 col-md-2 col-lg-1 p-0"><img src="assets/imgs/blog/comments/4.jpg" class="img-fluid" alt="..."></div>
+                                            <div class="col-3 col-md-2 col-lg-1 p-0"><img src="{% static  'website/assets/imgs/blog/comments/4.jpg'%}" class="img-fluid" alt="..."></div>
                                             <div class="col-9 col-md-10 col-lg-11 ps-4">
                                                 <div class="d-flex w-100 justify-content-between">
                                                     <h4 class="mb-1">John Doe</h4>
